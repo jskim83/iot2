@@ -1,4 +1,4 @@
-int ledPin = 9; // ledPin을 7번으로 정의
+int ledPin = 11; // ledPin을 7번으로 정의
 
 
 void setup() {
@@ -13,4 +13,6 @@ void loop() {
   digitalWrite(ledPin, LOW);  //LED OFF
   delay(3000);                //1초 대기
 
+  digitalWrite(ledPin, LOW);  //LED OFF
+  delay(1000);                //1초 대기
 }
